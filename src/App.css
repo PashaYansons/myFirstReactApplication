@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+body{
+  background: #edeef0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url(fonts/Oswald-VariableFont_wght.ttf)
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/OpenSans-Bold.ttf)
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url(fonts/ProximaNova-Extrabld.woff)
+}
+
+
+
+
+.app-wrapper{
+  max-width: 100vw;
+  display: grid;
+  grid-template-rows: 51px 1fr;
+  grid-template-columns: 2fr 10fr;
+   grid-gap: 5px;
+  grid-template-areas: 
+  "h h h"
+  "n c c";
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* .nav{
+  grid-area: n;
+  
+} */
+
+.content{
+grid-area: c;
+background: darkseagreen;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}

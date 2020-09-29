@@ -1,0 +1,57 @@
+.post_item{
+    border-radius: 4px;
+    position: relative;
+    margin: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #d3d9de, 0px 0px 0px 1px #d3d9de;
+  }
+  .avatarPostImg{
+    height: 50px;
+    margin: 10px 20px 10px 0px;
+    width: 50px;
+    border-radius: 50% 50%;
+  }
+  .avatar-post_container{
+    display: flex;
+      padding: 0px 20px;
+      
+  }
+  .nameActionContainer{
+    margin-top: 10px;
+  }
+  .nameActionContainer p{
+    color: gray;
+  }
+  .deletePost{
+    position: absolute;
+      right: 0;
+      top: 0;
+      color: darkgray;
+      margin: 3px 13px 0px 0px;
+  }
+  .deletePost:hover {
+    color: #4a76a8;
+    cursor: pointer;
+  }
+  .content{
+    padding: 20px;
+    border-bottom: 1px solid darkgray;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 32px;
+  }
+  .actions{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+  }
+  .likeAction{
+    color: darkgray;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .likeCounter p{
+    font-size: 20px;
+    color: darkgray;
+  }
+  .likeAction:hover {
+    color: #4a76a8;
+  }

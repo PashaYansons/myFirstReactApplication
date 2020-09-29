@@ -1,0 +1,19 @@
+.nav-item{
+    display: flex;
+    padding: 6px;
+  }
+  .nav-item i{
+    color: #2a5885;
+    margin-right: 15px;
+  }
+  .nav-item:hover{
+    background: #dce1e6;
+    cursor: pointer;
+  }
+  .nav-item a{
+    color: #2a5885;
+  }
+  .nav{
+    grid-area: n;
+    
+  }
