@@ -1,6 +1,6 @@
 import React from 'react';
 import slyles from './profile.module.css';
-import ItemWall from './post';
+import ItemWall from './post.jsx';
 const style = {
   'Wall': 'profile_Wall__8rBui' ,
   'avatarContainer':'profile_avatar-container__m8Njg' ,
@@ -12,11 +12,12 @@ const style = {
   'information' : 'profile_information__1IF2l ',
   'infoContainer' : 'profile_info-container__Puy1z',
   'right' : 'profile_right__16jyo',
+  "myProfile": "profile_myProfile__30dfO",
 
 }
 export default function MyProfile(){
     return(
-     <div className = "myProfile">
+     <div className ={style.myProfile}>
        <div className = {style.Wall}>
        <div className = "left">
         <div className = {style.avatarContainer}>
@@ -43,12 +44,12 @@ export default function MyProfile(){
        
        </div>
          <div className = {style.wallCreate}>
-           <input type = "text" className = {style.input_wall} value ="Что у вас нового?"></input>
+           <textarea type = "text" className = {style.input_wall}></textarea>
            <button className = {style.button} type = "submit" >Отправить</button>
          </div>
          <ItemWall name = "Pavel Yansons" text = "Suck or not to suck that is the question"/>
          <ItemWall name = "Pavel Yansons" text = "Hello world from 603's room"/>
-         <ItemWall name = "Pavel Yansons" text = "Long text Long text  Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text Long text"/>
+        
          </div>
     
        </div>

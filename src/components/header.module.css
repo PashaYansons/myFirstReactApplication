@@ -1,11 +1,14 @@
 .header{
     grid-area: h;
     height: 42px;
-    background-color:#4a76a8;
+    box-sizing: border-box;
+    background-color: #4a76a8;
+    padding: 5px;
  }
 .logo{
- font-family: OpenSans;
- color: white;
- font-size: 23px;
- margin: 3px 8px;
- }
+    font-family: OpenSans;
+    color: white;
+    font-size: 23px;
+    margin: auto;
+    max-width: 1000px;
+}

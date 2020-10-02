@@ -95,3 +95,7 @@
     font-family: OpenSans;
     box-shadow: 0px 10px 2px -8px rgba(160, 157, 157, 0.5);
   }
+.myProfile{
+  grid-area: c;
+  height: 100vh;
+}

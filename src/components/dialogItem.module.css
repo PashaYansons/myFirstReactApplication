@@ -1,0 +1,21 @@
+.dialogItem{
+    display: flex;
+    padding: 5px 0px 4px 15px;
+    border-bottom: 1px solid #d3d9de;
+    text-decoration: none;
+}
+.dialogItem img{
+    border-radius: 50% 50%;
+}
+.dialogItem p{
+    font-weight: 600;
+ align-self: center;
+margin-left: 25px;
+color: #222222;
+font-size: 13px;
+
+}
+.dialogItem:hover{
+    background: #dce1e6;
+    cursor: pointer;
+}

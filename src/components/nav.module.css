@@ -1,19 +1,23 @@
-.nav-item{
+.navItem{
     display: flex;
     padding: 6px;
   }
-  .nav-item i{
-    color: #2a5885;
+  .navItem i{
+    color: #8fadc8;
     margin-right: 15px;
   }
-  .nav-item:hover{
+  .navItem:hover{
     background: #dce1e6;
     cursor: pointer;
   }
-  .nav-item a{
+  .navItem a{
     color: #2a5885;
+    text-decoration: none;
   }
-  .nav{
-    grid-area: n;
-    
-  }
+/*   a{
+    text-decoration: none;
+    color: #2a5885;
+  } */
+.navItem .a.active{
+  color: #255686;
+}
