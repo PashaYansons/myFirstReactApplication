@@ -41,7 +41,7 @@ export default function ItemWall(props){
          <i class="far fa-heart"></i>
          </div>
          <div className = {style.likeCounter}>
-           <p>28</p>
+    <p>{props.likesCount}</p>
          </div>
       </div>
       </div>

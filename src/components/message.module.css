@@ -14,3 +14,11 @@ margin-left: 10px;
     font-size: 18px;
     margin-bottom: 5px;
 }
+.messageInfo{
+    display: flex;
+}
+.messageInfo span{
+    color: gray;
+    margin-left: 10px;
+    margin-top: 2px;
+}

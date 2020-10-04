@@ -15,6 +15,12 @@ const style = {
   "myProfile": "profile_myProfile__30dfO",
 
 }
+let postsData = [
+  {id : 1,name : 'Павел Янсонс', text : 'Suck or not to suck that is the question',likesCount : 23 },
+  {id : 2,name : 'Павел Янсонс', text : 'Hello world from 603\'s room',likesCount : 11 },
+  {id : 2,name : 'Павел Янсонс', text : 'There are Gena and Galya two birbs',likesCount : 228 },
+]
+let postElements = postsData.map (el => <ItemWall name = {el.name} text = {el.text} likesCount = {el.likesCount}/>)
 export default function MyProfile(){
     return(
      <div className ={style.myProfile}>
@@ -47,8 +53,8 @@ export default function MyProfile(){
            <textarea type = "text" className = {style.input_wall}></textarea>
            <button className = {style.button} type = "submit" >Отправить</button>
          </div>
-         <ItemWall name = "Pavel Yansons" text = "Suck or not to suck that is the question"/>
-         <ItemWall name = "Pavel Yansons" text = "Hello world from 603's room"/>
+         {postElements}
+       
         
          </div>
     

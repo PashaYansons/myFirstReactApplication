@@ -13,8 +13,8 @@ function App() {
       <Header />
       <div className = "contentWrapper">
          <Nav />
-      <Route /* exact */ path = "/dialogs" component ={Dialogs}/>
-      <Route  path="/myProfile" component ={MyProfile}/>
+      <Route  path = "/dialogs" render = { () => <Dialogs />}/>
+      <Route  path="/myProfile" render = { () => <MyProfile />}/>
       </div>
      
     

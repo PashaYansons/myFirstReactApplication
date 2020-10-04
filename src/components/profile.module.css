@@ -72,8 +72,9 @@
     align-self: center;
     width: 100%;
     font-size: 20px;
-    height: 40px;
+    height: auto;
     border: none;
+    resize: none;
   }
   input:focus {
     outline-style: none;
