@@ -5,7 +5,6 @@ import classes from './nav.module.css';
 
 let classes2 = {
   "navItem": "nav_navItem__3VFr5",
-
 	"nav": "nav_nav__3RSrj"
 }
 export default function Nav(){

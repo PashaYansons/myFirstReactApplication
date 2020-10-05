@@ -15,13 +15,10 @@ const style = {
   "myProfile": "profile_myProfile__30dfO",
 
 }
-let postsData = [
-  {id : 1,name : 'Павел Янсонс', text : 'Suck or not to suck that is the question',likesCount : 23 },
-  {id : 2,name : 'Павел Янсонс', text : 'Hello world from 603\'s room',likesCount : 11 },
-  {id : 2,name : 'Павел Янсонс', text : 'There are Gena and Galya two birbs',likesCount : 228 },
-]
-let postElements = postsData.map (el => <ItemWall name = {el.name} text = {el.text} likesCount = {el.likesCount}/>)
-export default function MyProfile(){
+
+export default function MyProfile(props){
+
+  let postElements = props.state.postsData.map (el => <ItemWall name = {el.name} text = {el.text} likesCount = {el.likesCount}/>)
     return(
      <div className ={style.myProfile}>
        <div className = {style.Wall}>
